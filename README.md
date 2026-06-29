@@ -1,13 +1,15 @@
 # Darwin-Enterprise-Campus-Network-Lab
 Advanced Cisco Packet Tracer lab implementing an enterprise multi-department campus network using Layer 3 switching, Switch Virtual Interfaces (SVIs), 802.1Q port trunking, and Inter-VLAN routing verification.
 
+# 🏢 Advanced Inter-VLAN Enterprise Campus Network Lab
+
 A hands-on Cisco Packet Tracer lab implementing an advanced multi-department corporate network topology. This project demonstrates network segmentation using Virtual Local Area Networks (VLANs), Layer 3 Inter-VLAN routing, and 802.1Q trunking encapsulation on a Multilayer Core Switch.
 
 ---
 
 ## 🗺️ Network Topology Map
 
-![Network Topology](screenshots/01-the-topology-map.png)
+![Network Topology](https://githubusercontent.com)
 *Figure 1: Enterprise core distribution network design featuring segmented department LAN zones communicating across a central 3560 Multilayer Core Switch.*
 
 ---
@@ -37,13 +39,13 @@ A hands-on Cisco Packet Tracer lab implementing an advanced multi-department cor
 ## 🔍 Engineering Verification & Configuration Proofs
 
 ### 1. Multilayer Switch SVI Initialization
-![Core Switch SVI Config](screenshots/02-switch-config.png)
+![Core Switch SVI Config](https://githubusercontent.com)
 *Figure 2: Successful deployment of virtual gateways and global IP routing commands inside the Multilayer Switch terminal.*
 
 ### 2. Core Distribution Layer Trunking Execution
-![Backbone Trunk Config](screenshots/03-trunking-config.png)
+![Backbone Trunk Config](https://githubusercontent.com)
 *Figure 3: Configuring the fastEthernet interface range paths to force 802.1Q encapsulation protocols.*
 
 ### 3. Cross-Department Inter-VLAN Ping Resolution
-![Inter-VLAN Ping Test](screenshots/04-intervlan-ping-test.png)
+![Inter-VLAN Ping Test](https://githubusercontent.com)
 *Figure 4: ICMP validation test from HR PC0 navigating cross-subnet pathways to successfully ping Finance PC2 with 0% packet loss.*
